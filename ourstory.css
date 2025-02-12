@@ -1,0 +1,171 @@
+/* UI bar style */
+.uiTabBar{
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFFDFD;
+    padding: 8px 0;
+    margin: 80px auto 0;
+    font-weight: 400;
+}
+.uiTabItem{
+    color: #0D274D;
+    border-right: 1px solid #E6E6E6;
+    border-left:none;
+}
+/* card css */
+.main-flip-card{
+    display: flex;
+    padding-top: 13px;
+    flex-wrap:wrap;
+}
+.flip-card {
+    background-color: transparent;
+    width: 422px;
+    height: 431px;
+    perspective: 1000px;
+    margin: 30px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+.flip-card:focus {
+    outline: 0;
+}
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.flip-card-front {
+    /* background-image:url(/sfsites/c/file-asset/imagefront2247?v=1); */
+    background: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    z-index: 2;
+    padding: 16px;
+}
+.flip-card-front-text {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.flip-card-back {
+    /* background-image:url(/sfsites/c/file-asset/Card2P4Pbg?v=1); */
+    background: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+    padding:16px;
+  
+}
+
+/* card img */
+.flip-card-front{background-image:url(/sfsites/c/file-asset/imagefront2247?v=1);}
+.flip-card-front-1 {background-image:url(/sfsites/c/file-asset/Card1P4P?v=1);}
+.flip-card-front-2 {background-image:url(/sfsites/c/file-asset/card3img?v=1);}
+.flip-card-front-3 {background-image:url(/sfsites/c/file-asset/card2img?v=1);}
+.flip-card-front-4 {background-image:url(/sfsites/c/file-asset/card5img?v=1);}
+.flip-card-front-5 {background-image:url(/sfsites/c/file-asset/card6img?v=1);}
+.flip-card-front-6 {background-image:url(/sfsites/c/file-asset/card7img?v=1);}
+.flip-card-front-7 {background-image:url(/sfsites/c/file-asset/card8img?v=1);}
+.flip-card-front-8 {background-image:url(/sfsites/c/file-asset/card4img?v=1);}
+
+.flip-card-back {background-image:url(/sfsites/c/file-asset/Card2P4Pbg?v=1);}
+.flip-card-back-2{background-image:url(/sfsites/c/file-asset/imageback2247?v=1);}
+.flip-card-back-3{background-image:url(/sfsites/c/file-asset/card3bg?v=1);}
+.flip-card-back-4{background-image:url(/sfsites/c/file-asset/card4bg?v=1);}
+.flip-card-back-5{background-image:url(/sfsites/c/file-asset/card5bg?v=1);}
+.flip-card-back-6{background-image:url(/sfsites/c/file-asset/card6bg?v=1);}
+.flip-card-back-7{background-image:url(/sfsites/c/file-asset/card7bg?v=1);}
+.flip-card-back-8{background-image:url(/sfsites/c/file-asset/card8bg?v=1);}
+
+
+/* storycr card img*/
+.cr-story-front-1{background-image:url(/sfsites/c/file-asset/crfront1?v=1);}
+.cr-story-front-2{background-image:url(/sfsites/c/file-asset/crfront2?v=1);}
+.cr-story-front-3{background-image:url(/sfsites/c/file-asset/crfront3?v=1);}
+.cr-story-front-4{background-image:url(/sfsites/c/file-asset/crfront4?v=1);}
+.cr-story-front-5{background-image:url(/sfsites/c/file-asset/crfront5?v=1);}
+.cr-story-front-6{background-image:url(/sfsites/c/file-asset/crfront6?v=1);}
+.cr-story-front-7{background-image:url(/sfsites/c/file-asset/Frame_2133918076?v=1);}
+
+.cr-story-back-1{background-image:url(/sfsites/c/file-asset/crbackimg1?v=1);}
+.cr-story-back-2{background-image:url(/sfsites/c/file-asset/crbackimg2?v=1);}
+.cr-story-back-3{background-image:url(/sfsites/c/file-asset/crbackimg3?v=1);}
+.cr-story-back-4{background-image:url(/sfsites/c/file-asset/crbackimg4?v=1);}
+.cr-story-back-5{background-image:url(/sfsites/c/file-asset/crbackimg5?v=1);}
+.cr-story-back-6{background-image:url(/sfsites/c/file-asset/crbackimg6?v=1);}
+.cr-story-back-7{background-image:url(/sfsites/c/file-asset/Frame_2133918077?v=1);}
+
+/* storyes card img*/
+.es-story-front-1{background-image:url(/sfsites/c/file-asset/escardfront1?v=1);}
+.es-story-front-2{background-image:url(/sfsites/c/file-asset/escardfront2?v=1);}
+.es-story-front-3{background-image:url(/sfsites/c/file-asset/escardfront3?v=1);}
+.es-story-front-4{background-image:url(/sfsites/c/file-asset/escardfront4?v=1);}
+.es-story-front-5{background-image:url(/sfsites/c/file-asset/escardfront5?v=1);}
+.es-story-front-6{background-image:url(/sfsites/c/file-asset/escardfront6?v=1);}
+.es-story-front-7{background-image:url(/sfsites/c/file-asset/Buildingf?v=1);}
+.es-story-front-8{background-image:url(/sfsites/c/file-asset/Embracingf?v=1);}
+.es-story-front-9{background-image:url(/sfsites/c/file-asset/CiscoBlackf?v=1);}
+
+.es-story-back-1{background-image:url(/sfsites/c/file-asset/escardback1?v=1);}
+.es-story-back-2{background-image:url(/sfsites/c/file-asset/escardback2?v=1);}
+.es-story-back-3{background-image:url(/sfsites/c/file-asset/escardback3?v=1);}
+.es-story-back-4{background-image:url(/sfsites/c/file-asset/escardback4?v=1);}
+.es-story-back-5{background-image:url(/sfsites/c/file-asset/escardback5?v=1);}
+.es-story-back-6{background-image:url(/sfsites/c/file-asset/escardback6?v=1);}
+.es-story-back-7{background-image:url(/sfsites/c/file-asset/Buildingb?v=1);}
+.es-story-back-8{background-image:url(/sfsites/c/file-asset/Embracingb?v=1);}
+.es-story-back-9{background-image:url(/sfsites/c/file-asset/CiscoBlackb?v=1);}
+
+/* storyee card img*/
+.ee-story-front-1{background-image:url(/sfsites/c/file-asset/eefrontimg1?v=1);}
+.ee-story-front-2{background-image:url(/sfsites/c/file-asset/eefrontimg2?v=1);}
+.ee-story-front-3{background-image:url(/sfsites/c/file-asset/eefrontimg3?v=1);}
+.ee-story-front-4{background-image:url(/sfsites/c/file-asset/eefrontimg4?v=1);}
+.ee-story-front-5{background-image:url(/sfsites/c/file-asset/eefrontimg5?v=1);}
+.ee-story-front-6{background-image:url(/sfsites/c/file-asset/eefrontimg6?v=1);}
+.ee-story-front-7{background-image:url(/sfsites/c/file-asset/TalentBridgef?v=1);}
+.ee-story-front-8{background-image:url(/sfsites/c/file-asset/BridgeEquityf?v=1);}
+.ee-story-front-9{background-image:url(/sfsites/c/file-asset/Frame_2133918079?v=1);}
+.ee-story-front-10{background-image:url(/sfsites/c/file-asset/image712?v=1);}
+
+.ee-story-back-1{background-image:url(/sfsites/c/file-asset/eebackimg1?v=1);}
+.ee-story-back-2{background-image:url(/sfsites/c/file-asset/eebackimg2?v=1);}
+.ee-story-back-3{background-image:url(/sfsites/c/file-asset/eebackimg3?v=1);}
+.ee-story-back-4{background-image:url(/sfsites/c/file-asset/eebackimg4?v=1);}
+.ee-story-back-5{background-image:url(/sfsites/c/file-asset/eebackimg5?v=1);}
+.ee-story-back-6{background-image:url(/sfsites/c/file-asset/eebackimg6?v=1);}
+.ee-story-back-7{background-image:url(/sfsites/c/file-asset/TalentBridgeb?v=1);}
+.ee-story-back-8{background-image:url(/sfsites/c/file-asset/BridgeEquityb?v=1);}
+.ee-story-back-9{background-image:url(/sfsites/c/file-asset/Frame_2133918080?v=1);}
+.ee-story-back-10{background-image:url(/sfsites/c/file-asset/image_13?v=1);}
+
+/* storyes card img*/
+.all-story-front-1{background-image:url(/sfsites/c/file-asset/image_42?v=1);}
+.all-story-front-2{background-image:url(/sfsites/c/file-asset/image_2271?v=1);}
+.all-story-front-3{background-image:url(/sfsites/c/file-asset/image_2281?v=1);}
+
+.all-story-back-1{background-image:url(/sfsites/c/file-asset/image_51?v=1);}
+.all-story-back-2{background-image:url(/sfsites/c/file-asset/image_2272?v=1);}
+.all-story-back-3{background-image:url(/sfsites/c/file-asset/image_2280?v=1);}
+/* card img end*/
