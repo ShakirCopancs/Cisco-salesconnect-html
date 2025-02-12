@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.3s;
+    width: 25%;
+    height: 115px;
+    border-radius: 8px;
+    border: 1px solid #BFBFBF;
+    background: #FFF;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    Padding: 16px 32px;
+    box-sizing: border-box;
+    gap: 30px;
+    font-family: Source Sans Pro, Segoe UI, Frutiger, Helvetica, Arial;
+    font-size: 15px;
+    font-weight: 500;
+    color: #545454;
+}
+
+.card:hover {
+    border: 1px solid #00BCEB;
+    background: #F6FCFF;
+    box-shadow: 0px 4px 0px 0px #00BCEB;
+}
+
+.card.active {
+    border: 1px solid #00BCEB;
+    background: #F6FCFF;
+    box-shadow: 0px 4px 0px 0px #00BCEB;
+}
+
+.card img {
+    width: 60px;
+
+}
+
+
+
+
+/*  */
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row * {
+    box-sizing: border-box;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tabs {
+    display: flex;
+    background-color: #0D274D;
+    font-family: Source Sans Pro, Segoe UI, Frutiger, Helvetica, Arial;
+    justify-content: center;
+}
+
+.tab {
+    padding: 13px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-left: 1px solid rgba(47, 72, 108, 0.60);
+    font-size: 16px;
+}
+
+.tab.active {
+    color: #0D274D;
+    background-color: #fff;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+    margin-top: 10px;
+    font-family: Source Sans Pro, Segoe UI, Frutiger, Helvetica, Arial;
+    color: #14264A;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.tab-content.active {
+    display: block;
+
+}
+
+.tab-content h3 {
+    color: #14264A;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+.developboxes {
+    display: flex;
+    gap: 15px;
+}
+
+.developboxes .Developing-box {
+    padding: 16px 16px;
+    border-radius: 8px;
+    border-radius: 13px;
+    border: 1px solid #ECECEC;
+    flex: 1;
+}
+
+.developboxes .Developing-box p {
+    margin: 10px 0 0 0;
+}
+
+.developboxes .Developing-box p:first-child {
+    margin-top: 0px;
+}
+
+.cpn-slcn-h4-2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.faq-list {
+    padding-top: 30px;
+}
+
+.faq-list h4 {
+    font-size: 24px;
+    color: #0D274D;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=3e155603-4fd1-469f-9e26-4547cccd0eb8&et=20250213071137&fn=Vector.PNG&sig=2aZy5hbxdZjX1tkd8uEprz3iF9F7vhzXpjmmYpwygro%3D);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 30px;
+}
+
+.faq-content {
+    padding-left: 30px;
+}
+
+.faq-content ul {
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.faq-content ul li {
+    padding-bottom: 5px;
+}
+
+.faq-content ul ul {
+    list-style: disc;
+}
+
+
+
+.organize-box {
+    border-radius: 8px;
+    border: 1px solid #ECECEC;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-bottom: 30px;
+    min-height: calc(100% - 30px);
+}
+
+.organize-box h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #000000;
+    margin: 0px 0 10px 0;
+}
+
+.organize-box p {
+    color: #14264A;
+    margin: 15px 0;
+}
+
+.organize-box a {
+    color: #0051AF;
+    text-decoration: none;
+}
+
+.min-height-inherit {
+    min-height: inherit !important;
+}
