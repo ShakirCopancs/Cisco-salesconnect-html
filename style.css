@@ -210,3 +210,161 @@ body {
 .min-height-inherit {
     min-height: inherit !important;
 }
+
+.homebanner {
+    background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=8fa40f30-b59d-41ae-92d2-eb1e0d0d4a7b&et=20250213101618&fn=homebannernew.PNG&sig=%2FOTKkwUyOghIIiH4jyceKM9ugB3FZq9Fpn3p80Cn74E%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-banner-inner {
+    height: 470px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1302px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Source Sans Pro, Segoe UI, Frutiger, Helvetica, Arial;
+}
+
+.hero-banner-inner p {
+    color: #E2E2E2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero-banner-inner h1 {
+
+    font-size: 48px;
+    font-weight: 300;
+    color: #E2E2E2;
+    padding: 20px 0 8px 0;
+    margin: 0px;
+}
+
+
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+
+/*  */
+.home-card-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.home-card-row a {
+    display: block;
+    text-decoration: none;
+
+}
+
+.home-card {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    padding: 50px 25px 25px 25px;
+    display: inline-block;
+    min-height: 365px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Source Sans Pro, Segoe UI, Frutiger, Helvetica, Arial;
+}
+
+.home-card .img {
+    height: 80px;
+}
+
+.home-card .img img {
+    -webkit-filter: brightness(10);
+    filter: brightness(10);
+}
+
+.home-card h3.cpn-slcn-h4-1 {
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.home-card .cpn-slcn-h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #E2E2E2;
+    padding-top: 8px;
+    margin: 0px;
+}

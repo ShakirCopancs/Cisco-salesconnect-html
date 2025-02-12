@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Custom Tabs</title>
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="homebanner">
+        <div class="hero-banner-inner">
+            <h1>Partnering for Purpose</h1>
+            <p>“We must help bridge gaps of inequity by using our technology, extended <br>ecosystem, and the expertise
+                of our teams.”- Chuck Robbins</p>
+        </div>
+    </div> -->
+
+    <!-- <div class="carousel-wrapper">
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <img src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=4cfae54d-a8cb-4381-91f9-d559d1e6c614&et=20250213104904&fn=s1.PNG&sig=Vv5JjZJ6uS3krnZjTiL9vfzobeVy2UX8t5%2BZFXK8gBc%3D"
+                    alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=98640b32-cbba-4ce5-9e73-595152eccc59&et=20250213105002&fn=s2.PNG&sig=avhyWFZi8qfUV679Q8IimlZ01WiUuo%2FsB7SYmD2n%2Brw%3D"
+                    alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=b97fa16c-78f4-4eee-8da4-5ea14d060011&et=20250213105039&fn=s3.PNG&sig=Rex8ai4go8%2FY5KAAq5MPllvviz5WWOg4PV5QP88Wzow%3D"
+                    alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=3feaa445-0ed0-4599-a47e-9f751fa46f10&et=20250213105106&fn=s4.PNG&sig=Ko2RWSCrFm6Rh7Ok0yKbysjP%2Bd1mFrjCWZUv3VvfjrY%3D"
+                    alt="Slide 4">
+            </div>
+        </div>
+
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const carouselContainer = document.querySelector(".carousel-container");
+            const dots = document.querySelectorAll(".dot");
+            const prevButton = document.querySelector(".prev");
+            const nextButton = document.querySelector(".next");
+            let currentIndex = 0;
+            const totalSlides = dots.length;
+
+            // Function to update the carousel display and active dot
+            function updateCarousel() {
+                // Update the transform to show the correct slide
+                const offset = -currentIndex * 100;
+                carouselContainer.style.transform = `translateX(${offset}%)`;
+
+                // Update active dots
+                dots.forEach((dot, index) => {
+                    dot.classList.remove("active");
+                    if (index === currentIndex) {
+                        dot.classList.add("active");
+                    }
+                });
+            }
+
+
+
+            // Handle dot click
+            dots.forEach((dot, index) => {
+                dot.addEventListener("click", function () {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+
+            // Auto-rotate carousel every 5 seconds
+            setInterval(function () {
+                currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
+                updateCarousel();
+            }, 5000);  // 5000ms = 5 seconds
+
+            // Initialize the carousel
+            updateCarousel();
+        });
+    </script> -->
+
+
+
+    <div class="home-card-row">
+        <div class="home-card home-card-1"
+            style="background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=08423b81-e960-491e-9f77-f1e798f4e98b&et=20250213112959&fn=homecardbgimg1.PNG&sig=gkCpfr7h%2Fk93K1L%2BUrY1VlEr34pT8qIw%2BdNcZw24AXA%3D);">
+            <a href="#">
+                <div class="img">
+                    <img
+                        src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=f09096b4-4616-4f7e-95fd-f50d37bab288&et=20250213060552&fn=Vector_473.PNG&sig=urv8elbQjbNwcWQzMUwr8rDMfb%2ByP3zdgCIygImzA9E%3D">
+                </div>
+                <h3 class="cpn-slcn-h4-1">Digital<br>Inclusion</h3>
+                <p class="cpn-slcn-h5">Creating access to connectivity, development of skills, and access to
+                    opportunity.</p>
+            </a>
+        </div>
+        <div class="home-card home-card-2"
+            style="background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=8ce9834e-3722-4978-8888-2ced0b1041f0&et=20250213113211&fn=homecardbgimg2.PNG&sig=mFonCcHGPOq%2BARQ1yzdhBeVEDmaRGPx1iRy%2F59RdHPM%3D);">
+            <a href="#">
+                <div class="img">
+                    <img
+                        src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=484dd555-ad9f-4500-96ee-148ee800ff8c&et=20250213061302&fn=Union.PNG&sig=Y6JS%2BsuQEBpDadGh7y4LONisksimaPQ5KMliy%2FdhPrI%3D">
+                </div>
+                <h3 class="cpn-slcn-h4-1">Employee Experience &amp;<br> Economic Empowerment</h3>
+                <p class="cpn-slcn-h5">Providing access to education and creating opportunities for economic
+                    empowerment.</p>
+            </a>
+        </div>
+        <div class="home-card home-card-3"
+            style="background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=09365cbf-63dd-4527-b5dc-ab001631df4a&et=20250213113345&fn=homecardbgimg3.PNG&sig=VHBK8rRZGLrnv%2BcbL7BXKCd8ire4pEjEAAmGiRGsln0%3D);">
+            <a href="#">
+                <div class="img">
+                    <img
+                        src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=1738f908-3602-4ecf-9e3b-8a74ffede0b0&et=20250213061511&fn=Vector_481.PNG&sig=gvKgYUgM52Ea2ZM8FyjmFWKspMH13CroQ3CBGO6nSV8%3D">
+                </div>
+                <h3 class="cpn-slcn-h4-1">Address Climate Change &amp;<br> Environmental Stewardship</h3>
+                <p class="cpn-slcn-h5">Helping to ensure a secure and regenerative future for our planet.</p>
+            </a>
+        </div>
+        <div class="home-card home-card-4"
+            style="background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=b19a6cbe-9027-44a8-93b6-c2b506570088&et=20250213113419&fn=homecardbgimg4.PNG&sig=9h%2FwF8I3rQIR8aFgOUs%2FP8G%2FeSZBcGtEDxY%2F4IAf%2FeI%3D);">
+            <a href="#">
+                <div class="img">
+                    <img src="https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=01feb943-d73b-42e8-8dde-9dd098093a91&et=20250213061605&fn=Vector_480.PNG&sig=WfNoOBVHcZRk2jYys5t9v7qNocxWRWO7VzaoCtMXE60%3D">
+                </div>
+                <h3 class="cpn-slcn-h4-1">Crisis Response &amp; Critical Human Needs.</h3>
+                <p class="cpn-slcn-h5">Safeguarding human needs and rights both in daily life and in time of human
+                    crisis.</p>
+            </a>
+        </div>
+        <div class="home-card home-card-5"
+            style="background-image: url(https://newdownload-edge.seismic.com/api/download/v1/blob?t=salesconnectsb&c=salesconnectsb&id=bcfac91c-d2dc-490d-988c-34a1617ac107&et=20250213113445&fn=homecardbgimg5.PNG&sig=%2Fx%2FYA%2BJKp9D4fGEKcXQK5L%2BKbT4sj6L0iA5OiJlLN04%3D);">
+            <a href="#">
+                <div class="img"></div>
+                <h3 class="cpn-slcn-h4-1">Stories<br><br></h3>
+                <p class="cpn-slcn-h5">Let our impact stories inspire you to action.</p>
+            </a>
+        </div>
+    </div>
+
+
+
+    <style>
+        .seismic-page-rawHtml-viewer-container-preview{height:auto!important}
+         .button {
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 12px 24px;
+                    border-radius: 50px;
+                    border: 2px solid #0F1C3F;
+                    text-decoration: none;
+                    transition: all 0.3s ease-in-out;
+        margin-bottom:20px;
+        display:inline-block;
+        font-family:arial
+                }
+        
+                .outline-button {
+                    background: transparent;
+                    color: #0F1C3F;
+                }
+        
+                .outline-button:hover {
+                    background: #0F1C3F;
+                    color: white;
+                }
+        
+                .solid-button {
+                    background: #0F1C3F;
+                    color: white;
+                    border: none;
+                }
+        
+                .solid-button:hover {
+                    opacity: 0.8;
+                }
+        .seismic-page-rawHtml-viewer-container-preview{height:auto!important}
+        </style>   
+        
+        <a href="#" class="button outline-button">Share your impact story</a>
+            <a href="https://salesresources-nprd.cisco.com/Link/Content/DC2dJFJf2DVC38TVXHdjj2g9V998" target="_blank" class="button solid-button">Get Started</a>
+</body>
+
+</html>
