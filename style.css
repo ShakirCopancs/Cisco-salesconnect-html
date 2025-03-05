@@ -254,6 +254,7 @@ body {
     max-width: 1300px;
     overflow: hidden;
     border-radius: 8px;
+    margin: auto;
 }
 
 .carousel-container {
@@ -367,4 +368,38 @@ body {
     color: #E2E2E2;
     padding-top: 8px;
     margin: 0px;
+}
+
+.site-footer {
+    background: rgb(204, 208, 211);
+    padding: 50px 20px;
+    color: #000;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1330px;
+    margin: auto;
+}
+
+.site-footer-bottom {
+    background-color: #151515;
+    padding: 20px;
+    color: #D6D6D6;
+    font-size: 12px;
+    text-align: center;
+}
+
+.site-footer-bottom a {
+    color: #D6D6D6;
+    text-decoration: none;
+}
+
+.site-footer-bottom ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap');
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* font-family: CiscoSans, sans-serif; */
+    font-family: "Sarabun", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* @font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526433000/CiscoSansTTThin") format("woff");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 100;
+    unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f
+}
+
+
+
+@font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526247000/CiscoSansTTExtraLight") format("woff");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 200;
+    unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f
+}
+
+
+
+@font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526337000/CiscoSansTTLight") format("woff");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f
+}
+
+
+
+@font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1689263643000/CiscoSansTTRegular") format("woff2");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400
+}
+
+
+
+
+
+@font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526372000/CiscoSansTTMedium") format("woff");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f
+}
+
+
+@font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719525914000/CiscoSansTTBold") format("woff");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f
+}
+
+
+
+
+@font-face {
+    font-family: CiscoSans;
+    src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526294000/CiscoSansTTHeavy") format("woff");
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f
+} */
+
+.header-hero-banner {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #25518F;
+border-radius: 24px;
+}
+
+.navbar{
+    border-bottom: 1px solid #4E6795;
+    padding: 0 24px;
+}
+.navbar  .navbar-nav  li{
+    margin-left: 20px;
+}
+.navbar  .navbar-nav  li:first-child{margin-left: 0px;}
+.navbar  .navbar-nav .nav-link{
+color: #fff;
+padding: 24px 0;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+}
+
+.hero-section .row{
+    min-height: 350px;
+}
