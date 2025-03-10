@@ -59,6 +59,10 @@ hr {
     opacity: 1;
 }
 
+.bg-primary {
+    background-color: #0070D2 !important;
+}
+
 /* @font-face {
     font-family: CiscoSans;
     src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526433000/CiscoSansTTThin") format("woff");
@@ -152,6 +156,10 @@ hr {
     min-height: 550px;
     background-position: bottom center;
     overflow: hidden;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar {
@@ -332,4 +340,58 @@ hr {
 
 .subfooter-section hr {
     border-color: #CDD5DF;
+}
+
+
+
+
+@media (max-width: 1279px) {
+    .home-card {
+        width: 33.33333333%;
+        flex: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav li {
+        margin-left: 0px;
+    }
+
+    .navbar .offcanvas {
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-card {
+        width: 50%;
+    }
+
+    .carousel-item {
+        display: block;
+    }
+
+    .carousel-content {
+        padding: 20px 0 0 0;
+    }
+
+    .header-hero-banner {
+        min-height: 250px;
+    }
+
+    .hero-section .row {
+        min-height: 230px;
+    }
+
+    .quote-text {
+        font-size: 18px;
+    }
+
+    .quote-author {
+        font-size: 14px;
+    }
 }
