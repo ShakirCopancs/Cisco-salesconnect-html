@@ -1,0 +1,112 @@
+/* ----------------------sidebar----------------------- */
+
+/* offcanvas-sidebar  css */
+
+.offcanvas-sidebar * {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.offcanvas-sidebar-body {
+  padding: 24px 24px 12px;
+  height: calc(100vh - 131px);
+  overflow: auto;
+}
+
+.offcanvas-sidebar.errors-detect-sidebar {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  transition: 0.5s;
+  transform: translateX(100%);
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.12);
+}
+
+.closebtn {
+  padding: 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.offcanvas-sidebar .offcanvas-sidebar-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1b1c1d;
+  padding: 22px 24px;
+  background-color: #f0f7fc;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.offcanvas-sidebar.errors-detect-sidebar .off-canvas-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 12px 24px;
+}
+
+.ea-btn-medium {
+  border-radius: 16px;
+  background: #0070d2;
+  padding: 6px 24px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+.ea-btn-secondary {
+  border-radius: 16px;
+  background: transparent;
+  padding: 6px 24px;
+  color: #0070d2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border: 1px solid #0070d2;
+  cursor: pointer;
+}
+
+.ea3-outlineBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 1px solid #b0d8fb;
+  border-radius: 4px;
+  background-color: #f0f7fc;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #0070d2;
+  /* cursor: pointer; */
+}
+
+.ow-overlay-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.4;
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}

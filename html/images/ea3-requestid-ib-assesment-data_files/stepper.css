@@ -1,0 +1,196 @@
+.ea3-stepper {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0;
+  margin: 0;
+  border-bottom: 1px solid #d6d6d6;
+}
+.ea3-step-list {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+
+.ea3-stepper .ea3-steps {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ea3-stepper .ea3-steps.active .dot {
+  background-color: #0070d2;
+}
+
+li.ea3-steps.inprogress .lower-text {
+  color: #1b1c1d;
+}
+li.ea3-steps.active .lower-text {
+  color: #1b1c1d;
+}
+li.ea3-steps.disabled .lower-text {
+  color: #4a4b4d;
+}
+
+.ea3-stepper .ea3-steps.active:after {
+  background-color: #0070d2;
+}
+
+.ea3-stepper .ea3-steps:last-child:after {
+  width: 0px;
+}
+
+.ea3-stepper .ea3-steps:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 12px;
+  background-color: #d6d6d6;
+  z-index: 0;
+}
+.ea3-stepper .ea3-steps .lower-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #4a4b4d;
+  display: block;
+  margin-top: 8px;
+}
+.ea3-stepper .ea3-steps .date-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  margin-top: 4px;
+  color: #606162;
+}
+.ea3-stepper .ea3-steps.active .date-text {
+  color: #242526;
+}
+.ea3-stepper .ea3-steps .dot {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background-color: #ebebeb;
+  border: 1px solid #ebebeb;
+}
+
+.ea3-stepper .ea3-steps.inprogress .dot {
+  background-color: #0070d2;
+}
+.ea3-stepper .ea3-steps.inprogress .dot::before {
+  background-color: #0070d2;
+  content: "";
+  height: 17px;
+  width: 17px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 30px;
+}
+.ea3-stepper .ea3-steps.active .dot::after {
+  content: " ";
+  color: #fff;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  margin: 0 auto;
+  top: 4px;
+  display: block;
+  font-size: 14px;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.70848 14.7213L3.34897 10.3618C3.05067 10.0635 3.05067 9.57997 3.34897 9.28167C3.64727 8.98337 4.13081 8.98337 4.42911 9.28167L7.70848 12.561L15.5712 4.69833C15.8695 4.40003 16.353 4.40003 16.6513 4.69833C16.9496 4.99663 16.9496 5.48017 16.6513 5.77847L7.70848 14.7213Z" fill="white"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}
+.ea3-steps:last-child {
+  width: 50%;
+}
+
+.ea3-proposal-setup {
+  padding: 12px 0;
+  margin-top: 4px;
+}
+
+.ea3-proposal-setup h5 {
+  color: #1b1c1d;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 0 12px;
+}
+.ea3-proposal-setup p {
+  color: #1b1c1d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+.ea3-uploaded-doc {
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
+  background: #fff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.ea3-uploaded-doc p {
+  color: #1b1c1d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+.ea3-uploaded-doc span {
+  color: #606162;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  display: block;
+}
+.ea3-uploaded-doc .doc-details {
+  width: 100%;
+}
+.offcanvas-sidebar .ea3-step-list {
+  width: 58%;
+}
+.offcanvas-sidebar .ea3-step-list .ea3-steps.active:first-child::after {
+  background-color: #d6d6d6;
+}
+
+
+.ea3-stepper .ea3-steps.warning .dot {
+  background-color: #E3241B;
+}
+.ea3-stepper .ea3-steps.warning:after {
+  background-color: #E3241B;
+}
+.ea3-stepper .ea3-steps.warning .dot::after {
+  content: " ";
+  color: #fff;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  margin: 0 auto;
+  top: 4px;
+  display: block;
+  font-size: 14px;
+  background-image: url('data:image/svg+xml,<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.4821 15.1852L9.66324 1.43774C9.45703 1.0826 8.87276 1.0826 8.66655 1.43774L0.847658 15.1852C0.744552 15.3628 0.75028 15.5805 0.847658 15.7581C0.945036 15.9356 1.13979 16.0445 1.34028 16.0445H16.9781C17.1843 16.0445 17.3733 15.9356 17.4707 15.7581C17.5681 15.5805 17.5738 15.3628 17.4707 15.1852H17.4821ZM2.33124 14.8931L9.16489 2.8755L15.9985 14.8931H2.33124ZM9.74912 12.4987C9.67465 12.4185 9.583 12.3555 9.4799 12.3154C9.37679 12.2753 9.27369 12.2524 9.16485 12.2467C8.94718 12.2524 8.7467 12.3441 8.59204 12.493C8.44311 12.6477 8.35719 12.8539 8.35146 13.0715C8.35146 13.1804 8.36864 13.2835 8.40874 13.3866C8.44884 13.484 8.50612 13.5756 8.58058 13.6558C8.65505 13.7303 8.7467 13.7933 8.84408 13.8334C8.94145 13.8735 9.05029 13.8964 9.1534 13.8964C9.36534 13.8907 9.57155 13.799 9.72048 13.6501C9.86941 13.5012 9.96106 13.3007 9.97252 13.083C9.97252 12.9742 9.95533 12.8653 9.91524 12.7622C9.87514 12.6591 9.81786 12.5675 9.73766 12.493L9.74912 12.4987ZM8.34572 6.70182C8.34572 6.50134 8.40873 6.31231 8.5233 6.15192H8.52903C8.64359 5.99153 8.8097 5.87697 8.99873 5.81969C9.18776 5.78532 9.37679 5.81396 9.54863 5.90561C9.72047 5.99726 9.85222 6.14047 9.93242 6.31231C9.99542 6.43833 10.0183 6.58153 10.0069 6.72473C10.0069 6.96558 9.99045 7.20643 9.97366 7.45263L9.97251 7.46939C9.96106 7.64123 9.9496 7.81308 9.94387 7.98492C9.94387 8.4088 9.9095 8.84414 9.87513 9.26802C9.86909 9.34858 9.86234 9.42843 9.85563 9.50782C9.84325 9.65424 9.83101 9.79909 9.82358 9.94394V10.5626C9.81785 10.7287 9.74911 10.8834 9.63455 10.9979C9.51999 11.1125 9.36533 11.1755 9.19921 11.1755C9.03883 11.1755 8.88417 11.1125 8.76388 11.0036C8.64359 10.8948 8.57485 10.7401 8.56339 10.5798C8.53624 10.0149 8.50393 9.45518 8.47136 8.89086L8.46602 8.79831C8.43737 8.37443 8.41446 7.95055 8.39155 7.52094L8.34572 6.70182Z" fill="white"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}

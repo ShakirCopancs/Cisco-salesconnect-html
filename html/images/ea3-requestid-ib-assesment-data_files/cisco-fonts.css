@@ -1,0 +1,166 @@
+body,
+* {
+  box-sizing: border-box;
+  font-family: CiscoSans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTThin.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 100;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTThinOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 100;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTExtraLight.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 200;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTExtraLightOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 200;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTLight.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTLightOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 300;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTRegular.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTRegularOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTCondRegular.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: condensed;
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTMedium.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTMediumOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 500;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTBold.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTBoldOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTCondBold.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: condensed;
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTHeavy.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 900;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
+
+@font-face {
+  font-family: CiscoSans;
+  src: url(fonts/standard/CiscoSansTTHeavyOblique.woff2) format("woff2");
+  font-display: swap;
+  font-stretch: normal;
+  font-style: oblique;
+  font-weight: 900;
+  unicode-range: U+0000-00FF, U+2000-20Cf, U+2150-215f;
+}
