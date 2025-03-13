@@ -165,6 +165,7 @@ hr {
 .navbar {
     background: rgba(17, 45, 84, 0.65);
     padding: 0 24px;
+    z-index: 9;
 }
 
 .navbar .navbar-nav li {
@@ -181,6 +182,28 @@ hr {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+}
+
+.hero-section {
+    color: #BAC9E2;
+    font-size: 18px;
+}
+
+.hero-section h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 1px solid #3F6391;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.hero-section h4 {
+    color: #D5DDEB;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .hero-section .row {
@@ -212,13 +235,20 @@ hr {
     background-repeat: no-repeat no-repeat;
     background-position: center center;
     background-size: contain;
-    width: 46px;
-    height: 30px;
+    width: 70px;
+    height: 28px;
+    display: inline-flex;
 }
 
 .carousel-section {
     background-color: #fff;
     border-radius: 0 0 24px 24px;
+    padding: 20px;
+}
+
+.ceo-message-section {
+    background-color: #fff;
+    border-radius: 24px;
     padding: 30px 20px;
 }
 
@@ -228,6 +258,7 @@ hr {
     justify-content: center;
     text-align: left;
     padding: 0px;
+
 }
 
 .carousel-item img {
@@ -237,6 +268,7 @@ hr {
 
 .carousel-content {
     padding-left: 20px;
+    flex-grow: 1;
 }
 
 .carousel-content h5 {
@@ -342,17 +374,53 @@ hr {
     border-color: #CDD5DF;
 }
 
+.ceo-message {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px;
+    color: #606162;
+    font-size: 18px;
 
+}
+
+.ceo-message-section h3 {
+    color: #1D385D;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.ceo-image {
+    width: 90px;
+
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: #d1d5db;
+}
 
 
 @media (max-width: 1279px) {
     .home-card {
-        width: 33.33333333%;
-        flex: auto;
+        max-width: calc(33.33333333% - 15px);
+        flex: 100%;
+    }
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 100%;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
@@ -363,6 +431,24 @@ hr {
 
     .navbar .offcanvas {
         width: 300px;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        right: 20px;
+        background: rgba(17, 45, 84, 1);
+        padding: 15px;
+        top: 100%;
+        border-radius: 8px;
+    }
+
+    .home-card {
+        max-width: calc(50% - 15px);
     }
 }
 
@@ -393,5 +479,18 @@ hr {
 
     .quote-author {
         font-size: 14px;
+    }
+
+    .ceo-message {
+        flex-wrap: wrap;
+    }
+
+
+    .hero-section h2 {
+        font-size: 30px;
+    }
+
+    .home-card {
+        max-width: 100%;
     }
 }
