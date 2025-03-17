@@ -43,6 +43,7 @@ h6 {
 
 h2 {
     font-size: 24px;
+    font-weight: 700;
 }
 
 h4 {
@@ -184,7 +185,7 @@ hr {
 .navbar .navbar-nav .nav-link {
     color: #fff;
     padding: 24px 0;
-    font-size: 15px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
 }
@@ -197,7 +198,7 @@ hr {
 
 .hero-section h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     border-bottom: 1px solid #3F6391;
     padding-bottom: 15px;
@@ -250,6 +251,8 @@ hr {
     background-color: #fff;
     border-radius: 0 0 24px 24px;
     padding: 20px;
+    padding-top: 0px;
+    margin-top: -45px;
 }
 
 .ceo-message-section {
