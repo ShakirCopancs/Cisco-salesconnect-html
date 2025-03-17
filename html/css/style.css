@@ -63,6 +63,11 @@ hr {
     background-color: #0070D2 !important;
 }
 
+/* .container {
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
 /* @font-face {
     font-family: CiscoSans;
     src: url("https://salesconnect.cisco.com/0DONOTUSE/sfsites/c/resource/1719526433000/CiscoSansTTThin") format("woff");
@@ -187,6 +192,7 @@ hr {
 .hero-section {
     color: #BAC9E2;
     font-size: 18px;
+    padding: 0 20px;
 }
 
 .hero-section h2 {
@@ -218,7 +224,7 @@ hr {
 
 .quote-text {
     color: #A2B8D6;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -357,7 +363,7 @@ hr {
 .home-card .cpn-slcn-h5 {
     font-size: 14px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 22px;
     color: #E2E2E2;
     padding-top: 8px;
     margin: 0px;
@@ -406,10 +412,10 @@ hr {
 
 
 @media (max-width: 1279px) {
-    .home-card {
+    /* .home-card {
         max-width: calc(33.33333333% - 15px);
         flex: 100%;
-    }
+    } */
 
     .container,
     .container-lg,
@@ -493,4 +499,23 @@ hr {
     .home-card {
         max-width: 100%;
     }
+}
+
+.inner-hero-banner .navbar {
+    background: rgba(17, 45, 84, 1);
+}
+
+.inner-hero-banner {
+    background-image: url(https://salesresources.cisco.com/gateway/services/bss/tenants/salesconnect/api/image/v1/salesconnect/salesconnect/8d9fe0bc-9113-49d1-b453-32b3ac2b18c3?userid=145276b9-1587-4125-b412-9e0a8663d924&sig=wBsA73KvJPTLzpUOSQL8nP5V56Rb7eYs0aOx6ctoMsM%3D&requestSize=Origin&redirecturi=https%3A%2F%2Fcdn-prod.seismic.com%2Fstatic%2Fexternal-resources%2Fimages%2FImageNotFound.png);
+    border-radius: 24px;
+    min-height: 350px;
+}
+
+.inner-hero-banner .hero-section {
+    color: #1B1C1D;
+    font-size: 16px;
+}
+
+.inner-hero-banner h2 {
+    color: #1B1C1D;
 }
