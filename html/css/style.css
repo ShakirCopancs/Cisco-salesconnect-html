@@ -153,7 +153,7 @@ hr {
 
 .header-hero-banner {
     background-color: #fff;
-    background-image: url(https://salesresources.cisco.com/gateway/services/bss/tenants/salesconnect/api/image/v1/salesconnect/salesconnect/475bbf5b-b808-4c62-ad7b-443c34a73ab6?userid=145276b9-1587-4125-b412-9e0a8663d924&sig=9WO0L8yebxBVXBzzgQI%2FvRmf18Q27MozGiJsVAWqUzQ%3D&requestSize=Origin&redirecturi=https%3A%2F%2Fcdn-prod.seismic.com%2Fstatic%2Fexternal-resources%2Fimages%2FImageNotFound.png);
+    background-image: url(https://salesconnect.cisco.com/partneringforpurpose/s/sfsites/c/file-asset/homebannernew?v=1);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 24px;
@@ -349,6 +349,7 @@ hr {
 .home-card .img img {
     -webkit-filter: brightness(10);
     filter: brightness(10);
+    width: 70px;
 }
 
 .home-card h3.cpn-slcn-h4-1 {
@@ -412,10 +413,7 @@ hr {
 
 
 @media (max-width: 1279px) {
-    /* .home-card {
-        max-width: calc(33.33333333% - 15px);
-        flex: 100%;
-    } */
+
 
     .container,
     .container-lg,
@@ -426,7 +424,15 @@ hr {
     }
 }
 
+@media (max-width: 1200px) {
+    .home-card {
+        max-width: calc(33.33333333% - 15px);
+        flex: 100%;
+    }
+}
+
 @media (max-width: 991px) {
+
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
