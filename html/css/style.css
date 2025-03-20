@@ -60,8 +60,47 @@ hr {
     opacity: 1;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 .bg-primary {
     background-color: #0070D2 !important;
+}
+
+.fs-5 {
+    font-size: 18px !important;
+}
+
+.fs-6 {
+    font-size: 16px !important;
+}
+
+.container-size-md {
+    max-width: 850px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #059FD9;
+    --bs-btn-border-color: #059FD9;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #112D54;
+    --bs-btn-hover-border-color: #112D54;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #112D54;
+    --bs-btn-active-border-color: #112D54;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+a {
+    color: #059FD9;
+    text-decoration: none;
 }
 
 /* .container {
@@ -188,6 +227,10 @@ hr {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    border-bottom: 3px solid;
 }
 
 .hero-section {
@@ -515,16 +558,24 @@ hr {
 }
 
 .inner-hero-banner {
-    background-image: url(https://salesresources.cisco.com/gateway/services/bss/tenants/salesconnect/api/image/v1/salesconnect/salesconnect/8d9fe0bc-9113-49d1-b453-32b3ac2b18c3?userid=145276b9-1587-4125-b412-9e0a8663d924&sig=wBsA73KvJPTLzpUOSQL8nP5V56Rb7eYs0aOx6ctoMsM%3D&requestSize=Origin&redirecturi=https%3A%2F%2Fcdn-prod.seismic.com%2Fstatic%2Fexternal-resources%2Fimages%2FImageNotFound.png);
     border-radius: 24px;
     min-height: 350px;
+    background: #2E4A6F;
+    overflow: hidden;
 }
 
 .inner-hero-banner .hero-section {
-    color: #1B1C1D;
-    font-size: 16px;
+    color: #A2B8D6;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.inner-hero-banner h2 {
-    color: #1B1C1D;
+.inner-hero-banner .hero-section h2 {
+    color: #fff;
+    border: none;
+    padding: 0px;
+}
+
+.inner-hero-banner .hero-section .row {
+    min-height: 320px;
 }
