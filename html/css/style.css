@@ -639,13 +639,13 @@ a {
 }
 .key{
     color: #606162;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 16px;
 }
 .value{
     color: #1B1C1D;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
 }
