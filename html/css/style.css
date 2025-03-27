@@ -263,7 +263,7 @@ a {
 
 .navbar .navbar-nav .nav-link {
     color: #fff;
-    padding: 24px 0;
+    padding: 22px 0;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -281,7 +281,7 @@ a {
 
 .hero-section h2 {
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     border-bottom: 1px solid #3F6391;
     padding-bottom: 15px;
@@ -308,7 +308,7 @@ a {
 
 .quote-text {
     color: #A2B8D6;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -325,7 +325,7 @@ a {
     background-repeat: no-repeat no-repeat;
     background-position: center center;
     background-size: contain;
-    width: 70px;
+    width: 42px;
     height: 28px;
     display: inline-flex;
 }
@@ -336,6 +336,7 @@ a {
     padding: 20px;
     padding-top: 0px;
     margin-top: -45px;
+    font-size: 16px;
 }
 
 .ceo-message-section {
@@ -352,7 +353,9 @@ a {
     padding: 0px;
 
 }
-
+.carousel-item .text-muted{
+    font-size: 14px!important;
+}
 .carousel-item img {
     max-width: 160px;
     border-radius: 10px;
@@ -721,3 +724,10 @@ color: #606162;
     border-top: 1px solid #D6D6D6;
     padding-top: 12px;
 }
+
+.cards-list .card{
+    color: #606162;
+}
+
+
+
