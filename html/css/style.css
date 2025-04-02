@@ -736,11 +736,8 @@ color: #606162;
 
 
 /* card css */
-.main-flip-card{
-    display: flex;
-    padding-top: 13px;
-    flex-wrap:wrap;
-}
+
+
 
 .flip-card-inner {
     position: relative;
@@ -752,6 +749,7 @@ color: #606162;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+    font-size: 14px;
 }
 .flip-card:focus {
     outline: 0;
@@ -857,7 +855,7 @@ color: #606162;
     padding-top: 13px;
     flex-wrap:wrap;
      gap:30px;
-    justify-content: center;
+
 }
 
 .main-flip-card *{
@@ -865,7 +863,7 @@ box-sizing:border-box;
 }
 .flip-card {
     background-color: transparent;
-      width: calc(33.333333% - 30px);
+      width: calc(33.333333% - 20px);
     height: 431px;
     perspective: 1000px;
    
@@ -896,6 +894,9 @@ box-sizing:border-box;
 }
 .flip-card  a{
     text-decoration: none;
+}
+.flip-card p{
+    margin: 0px;
 }
 .flip-card-front {
     background: gray;
@@ -934,4 +935,38 @@ box-sizing:border-box;
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.card-bigest-text{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-normal-text{
+    font-size: 16px;
+}
+
+.cardsTabs{
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFFDFD;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardsTabs li {
+    border-right: 1px #E6E6E6 solid;
+   
+}
+
+.cardsTabs li .nav-link{
+    padding: 10px 40px;
+    color: #0D274D;
+    font-size: 16px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #0D274D;
 }
