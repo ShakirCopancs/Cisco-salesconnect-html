@@ -866,7 +866,7 @@ box-sizing:border-box;
       width: calc(33.333333% - 20px);
     height: 431px;
     perspective: 1000px;
-   
+
 }
 .flip-card-inner {
     position: relative;
@@ -947,12 +947,14 @@ box-sizing:border-box;
 }
 
 .cardsTabs{
-    border-radius: 6px;
     border: 1px solid #E2E2E2;
     background: #FFFDFD;
     padding: 12px 0;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 
 }
 
