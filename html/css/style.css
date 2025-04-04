@@ -423,7 +423,7 @@ a {
 .home-card {
     flex: 1;
     width: 16.66666667%;
-    padding: 50px 25px 25px 25px;
+    padding: 40px 18px 18px 18px;
     display: inline-block;
     min-height: 365px;
     background-repeat: no-repeat;
@@ -809,6 +809,8 @@ color: #606162;
 .card-nav-content{
     display: flex ;
     gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
     /* margin-top: -60px; */
 }
 .linkcard {
@@ -816,7 +818,9 @@ color: #606162;
     align-items: center;
     padding: 10px;
     transition: all 0.3s;
-    width: 25%;
+    /* width: 25%; */
+    max-width: 320px;
+    min-width: 160px;
     height: 115px;
     border-radius: 8px;
     border: 1px solid #BFBFBF;
@@ -828,7 +832,13 @@ color: #606162;
     font-size: 15px;
     font-weight: 500;
     color: #545454;
+    justify-content: center;
 }
+@media (max-width: 992px) {
+    .linkcard {
+        min-width: 320px;
+    }
+ }
 
 .linkcard:hover {
     border: 1px solid #00BCEB;
@@ -854,7 +864,8 @@ color: #606162;
     display: flex;
     padding-top: 13px;
     flex-wrap:wrap;
-     gap:30px;
+    gap:30px;
+    justify-content: center;
 
 }
 
@@ -866,6 +877,7 @@ box-sizing:border-box;
       width: calc(33.333333% - 20px);
     height: 431px;
     perspective: 1000px;
+    min-width: 350px;
 
 }
 .flip-card-inner {
